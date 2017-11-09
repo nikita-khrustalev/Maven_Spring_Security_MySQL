@@ -1,6 +1,6 @@
-package net.proselyte.springsecurityapp.dao;
+package nik_khru_spring_security.dao;
 
-import net.proselyte.springsecurityapp.model.Role;
+import nik_khru_spring_security.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleDao extends JpaRepository<Role, Long> {

@@ -25,7 +25,7 @@
     </authentication-manager>
 
     <beans:bean id="userDetailsServiceImpl"
-                class="net.proselyte.springsecurityapp.service.UserDetailsServiceImpl"></beans:bean>
+                class="nik_khru_spring_security.service.UserDetailsServiceImpl"></beans:bean>
 
     <beans:bean id="encoder"
                 class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">

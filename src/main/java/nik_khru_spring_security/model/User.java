@@ -1,14 +1,8 @@
-package net.proselyte.springsecurityapp.model;
+package nik_khru_spring_security.model;
 
 import javax.persistence.*;
 import java.util.Set;
 
-/**
- * Simple JavaBean domain object that represents a User.
- *
- * @author Eugene Suleimanov
- * @version 1.0
- */
 
 @Entity
 @Table(name = "users")
